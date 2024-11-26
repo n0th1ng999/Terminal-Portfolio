@@ -449,6 +449,9 @@ export default function Home() {
 
 				break;
 
+			case "":
+				responseContent = [""];
+				break;
 			default:
 				// Attempt to find a similar command
 				const similarCommand = findSimilarCommand(input);
